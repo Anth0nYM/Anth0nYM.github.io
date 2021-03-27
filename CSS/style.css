@@ -1,0 +1,48 @@
+p{
+  font-size: 30px
+  
+}
+
+h1{
+  font-size:30px;
+}
+
+body{
+  background-color: #FF8C00
+}
+main {
+  display: flex;
+}
+
+img {
+  max-width: 100%;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.info {
+  width: 20%;
+  max-width: 250px;
+  border-right: 1px solid #eee;
+  padding: 2rem;
+  /* min-height: calc(100vh - 60px); */
+}
+
+.curriculo {
+  width: 70%;
+  padding: 2rem;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #eee;
+  height: 100px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
