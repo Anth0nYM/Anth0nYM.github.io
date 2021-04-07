@@ -56,13 +56,7 @@ nav {
     background-color: black;
     padding: 0.5rem;
     border-radius: 5px;    
-    size: 10
-
-  }
-  .login a {
-    color: gold;
-  }
-  
+  } 
   span {
     display: none;
   }
