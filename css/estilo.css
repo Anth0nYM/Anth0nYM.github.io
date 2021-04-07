@@ -2,9 +2,10 @@ body{
     background-color: black;
     font-family: 'Kiwi Maru', serif;
 }
-.notas{
+.desc{
       width:70%;
       right: 20px;
+      color: gold;
       position: absolute;
 
 }
@@ -24,14 +25,10 @@ body{
     padding-left: 5% ;
 }
 
-.notas{
-    color: gold;
-}
-
 nav {
     border-bottom: 1px solid gold;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
   }
   
   nav a {
