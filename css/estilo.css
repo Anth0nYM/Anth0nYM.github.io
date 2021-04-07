@@ -1,41 +1,96 @@
 body{
     background-color: black;
+    font-family: 'Kiwi Maru', serif;
+}
+.notas{
+      width:70%;
+      right: 20px;
+      position: absolute;
+
 }
 .esquerda{
     left: 0;
     width: 25%;
     position: absolute;
-    border-right: 2px solid gold;
     height: max-content;
- 
-    
-}
-.meio{
-    right: 0;
-    width: 75%;
-    position: absolute;
-    margin-left: 10px;
-    align-content: center;
-    text-align: center;
 }
 .sanduiche{
     width: 95%;
+    padding-left: 5% ;
 }
-.zapzap{
-    width: 60%;
 
-}
-.meio h1{
+.notas{
     color: gold;
 }
-.curso{
-    right: 0;
-    width: 75%;
-    position: absolute;
-    margin-left: 10px;
-    align-content: center;
-    text-align: center;
-    bottom:-180px;
-    height: max-content
 
-}   
+nav {
+    border-bottom: 1px solid gold;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav a {
+    color: gold;
+  }
+  
+  ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  li {
+    list-style: none;
+    margin-right: 2rem;
+  }
+  
+  li a {
+    text-decoration: none;
+  }
+  
+  li:hover {
+    text-decoration: underline;
+  }
+  
+  .baixar {
+    background-color: black;
+    padding: 0.5rem;
+    border-radius: 5px;    
+    size: 10
+
+  }
+  .login a {
+    color: gold;
+  }
+  
+  span {
+    display: none;
+  }
+  
+  @media (max-width: 480px) {
+    ul {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      align-items: flex-start;
+      padding-left: 0.5rem;
+      margin-block-end: 0;
+    }
+  
+    li {
+      margin-bottom: 1rem;
+      width: 100%;
+      border-bottom: 1px dashed #eee;
+    }
+  
+    li:last-child {
+      border-bottom: none;
+    }
+  
+    span {
+      display: block;
+    }
+  }
+  img{
+      max-width: 100%;
+  }
