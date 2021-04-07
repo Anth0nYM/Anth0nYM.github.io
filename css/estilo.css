@@ -59,9 +59,6 @@ nav {
   
   .home {
     background-color: black;
-    padding: 0.5rem;
-    border-radius: 5px; 
-    width: 30%;   
   } 
   span {
     display: none;
@@ -95,5 +92,6 @@ nav {
       max-width: 100%;
   }
 .icone{
-  width: 40%;
+  width: 100%;
+
 }
