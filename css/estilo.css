@@ -8,6 +8,11 @@ body{
       position: absolute;
 
 }
+.video{
+ padding-left: 40%;
+ padding-top: 2px;
+}
+
 .esquerda{
     left: 0;
     width: 25%;
@@ -52,10 +57,11 @@ nav {
     text-decoration: underline;
   }
   
-  .baixar {
+  .home {
     background-color: black;
     padding: 0.5rem;
-    border-radius: 5px;    
+    border-radius: 5px; 
+    width: 30%;   
   } 
   span {
     display: none;
@@ -88,3 +94,6 @@ nav {
   img{
       max-width: 100%;
   }
+.icone{
+  width: 40%;
+}
