@@ -170,3 +170,12 @@ textarea {
   right: 20px;
   text-align: center;
 }
+@media (max-width: 480px) {
+    .ad{
+      display:none;
+    }
+    .desc{
+      text-align: left;
+      width: 90%;
+    }
+   } 
