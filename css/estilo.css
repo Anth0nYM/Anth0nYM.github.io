@@ -1,3 +1,6 @@
+:root{
+  color: gold
+}
 body{
     background-color: black;
     font-family: 'Kiwi Maru', serif;
@@ -5,7 +8,6 @@ body{
 .desc{
       width:70%;
       right: 20px;
-      color: gold;
       position: absolute;
 
 }
@@ -20,15 +22,15 @@ body{
     position: absolute;
     height: max-content;
 }
-.sanduiche{
-    width: 95%;
+.ad{
+    width: 100%;
     padding-left: 5% ;
 }
 
 nav {
     border-bottom: 1px solid gold;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
   }
   
   nav a {
@@ -93,5 +95,78 @@ nav {
 
 }
 .date a {
-  collor:gold
+  color:gold
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  max-width: 45%;
+  text-align: left;
+  margin-bottom: 80px;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.top-text {
+  color: gold;
+  max-width: 100%;
+  align-self: flex-start;
+}
+
+.contatos {
+  color: gold;
+  display: flex;
+  flex-direction: column;
+  max-width: 45%;
+  text-align: right;
+  margin-bottom: 80px;
+}
+
+.info-contato a {
+  color: gold;
+  text-decoration: none;
+  transition: 0.3s
+}
+
+.info-contato a:hover {
+  color: black;
+  font-size: 130%;
+  transition: 0.3s;
+}
+
+input, textarea {
+  font-family: 'Roboto', sans-serif;
+  width: 90%;
+  padding: 0.9%;
+}
+
+.enviar input {
+  background-color: var(--azul-escuro);
+  width: 18%;
+  font-weight: bold;
+  border: 2px solid white;
+  color:white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.enviar input:hover {
+  background: var(--azul-claro);
+  transition: 0.3s;
+}
+
+textarea {
+  height: 100px;
+  resize: none;
+}
+.zoio{
+  position: absolute;
+  right: 20px;
+  text-align: center;
 }
