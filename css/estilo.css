@@ -14,6 +14,8 @@ body{
 .video{
  padding-left: 40%;
  padding-top: 2px;
+ width:560px;
+ height:315px;
 }
 
 .esquerda{
@@ -102,7 +104,7 @@ nav {
   display: flex;
   flex-direction: column;
   margin-left: 20px;
-  max-width: 45%;
+  max-width: 90%;
   text-align: left;
   margin-bottom: 80px;
 }
@@ -117,6 +119,7 @@ nav {
   color: gold;
   max-width: 100%;
   align-self: flex-start;
+  text-align: justify;
 }
 
 .contatos {
@@ -169,6 +172,9 @@ textarea {
   position: absolute;
   right: 20px;
   text-align: center;
+  padding-right: 25%;
+  opacity: 40%;
+
 }
 @media (max-width: 480px) {
     .ad{
@@ -181,5 +187,15 @@ textarea {
     }
     .video{
       padding-left: 0%;
+      padding-top: 2px;
+      width:inherit;
+      height:inherit;
     } 
+    .zoio{
+      display:none;
+    }
+    .top-text{
+      width: 100%;
+    }
+    
    } 
