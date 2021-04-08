@@ -197,5 +197,14 @@ textarea {
     .top-text{
       width: 100%;
     }
-    
+    .frescura{
+      width: 30%;
+    }
+    span{
+      justify-content: center;
+    }
+      span img{
+        justify-content: center;
+      }
    } 
+  
