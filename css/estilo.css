@@ -176,6 +176,9 @@ textarea {
     }
     .desc{
       text-align: left;
-      width: 90%;
+      width: 94%;
+      max-width: fit-content;
     }
+    .video{
+      padding-left: 0%;
    } 
